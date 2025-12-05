@@ -19,14 +19,23 @@ PostgreSQL 16 is an advanced open-source relational database with support for AC
 
 ## Contents
 
-- [Quickstart](#quickstart)
-- [Key Concepts](#key-concepts)
-- [Configuration and Best Practices](#configuration-and-best-practices)
-- [Security Considerations](#security-considerations)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Performance and Tuning](#performance-and-tuning)
-- [References and Further Reading](#references-and-further-reading)
+- [POSTGRESQL 16 PowerUser Guide (Bash)](#postgresql-16-poweruser-guide-bash)
+  - [Overview](#overview)
+  - [Contents](#contents)
+  - [Quickstart](#quickstart)
+  - [Key Concepts](#key-concepts)
+  - [Configuration and Best Practices](#configuration-and-best-practices)
+  - [Security Considerations](#security-considerations)
+  - [Examples](#examples)
+    - [Install and Configure PostgreSQL 16](#install-and-configure-postgresql-16)
+    - [Database and User Management](#database-and-user-management)
+    - [Backup and Restore Operations](#backup-and-restore-operations)
+    - [Query Execution and Analysis](#query-execution-and-analysis)
+    - [Index Management and Optimization](#index-management-and-optimization)
+    - [Maintenance Operations](#maintenance-operations)
+  - [Troubleshooting](#troubleshooting)
+  - [Performance and Tuning](#performance-and-tuning)
+  - [References and Further Reading](#references-and-further-reading)
 
 ## Quickstart
 
