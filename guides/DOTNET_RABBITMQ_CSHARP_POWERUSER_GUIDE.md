@@ -19,14 +19,21 @@ RabbitMQ is a robust message broker implementing AMQP 0-9-1 protocol for asynchr
 
 ## Contents
 
-- [Quickstart](#quickstart)
-- [Key Concepts](#key-concepts)
-- [Configuration and Best Practices](#configuration-and-best-practices)
-- [Security Considerations](#security-considerations)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Performance and Tuning](#performance-and-tuning)
-- [References and Further Reading](#references-and-further-reading)
+- [DOTNET RabbitMQ PowerUser Guide (C#)](#dotnet-rabbitmq-poweruser-guide-c)
+  - [Overview](#overview)
+  - [Contents](#contents)
+  - [Quickstart](#quickstart)
+  - [Key Concepts](#key-concepts)
+  - [Configuration and Best Practices](#configuration-and-best-practices)
+  - [Security Considerations](#security-considerations)
+  - [Examples](#examples)
+    - [Basic Message Publishing and Consuming](#basic-message-publishing-and-consuming)
+    - [Exchange Routing Patterns](#exchange-routing-patterns)
+    - [ASP.NET Core Integration with Dependency Injection](#aspnet-core-integration-with-dependency-injection)
+    - [Dead Letter Exchange and Retry Strategy](#dead-letter-exchange-and-retry-strategy)
+  - [Troubleshooting](#troubleshooting)
+  - [Performance and Tuning](#performance-and-tuning)
+  - [References and Further Reading](#references-and-further-reading)
 
 ## Quickstart
 
