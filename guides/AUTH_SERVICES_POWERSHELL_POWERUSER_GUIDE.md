@@ -5,8 +5,9 @@
   - SESKA Computational Engineer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)
-**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)
+
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
+**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
 
 [![Framework](https://img.shields.io/badge/Enterprise-Auth_Services-blue.svg)](https://learn.microsoft.com/en-us/azure/active-directory/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
@@ -15,18 +16,25 @@
 
 Enterprise authentication services provide centralized identity management, single sign-on (SSO), multi-factor authentication (MFA), and federated identity protocols for securing distributed systems at scale. This guide covers operational tasks using PowerShell 7+ on Windows for managing Azure AD, Active Directory Federation Services (AD FS), certificate authorities, token lifecycle automation, user provisioning via Microsoft Graph API, and security auditing. Power users need to understand certificate management, service principal automation, conditional access policies, and high-availability monitoring for production authentication infrastructure.
 
----
-
 ## Contents
 
-- [Quickstart](#quickstart)
-- [Key Concepts](#key-concepts)
-- [Configuration and Best Practices](#configuration-and-best-practices)
-- [Security Considerations](#security-considerations)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Performance and Tuning](#performance-and-tuning)
-- [References and Further Reading](#references-and-further-reading)
+- [AUTH\_SERVICES PowerUser Guide (PowerShell)](#auth_services-poweruser-guide-powershell)
+  - [Overview](#overview)
+  - [Contents](#contents)
+  - [Quickstart](#quickstart)
+  - [Key Concepts](#key-concepts)
+  - [Configuration and Best Practices](#configuration-and-best-practices)
+  - [Security Considerations](#security-considerations)
+  - [Examples](#examples)
+    - [Example 1: Automated User Provisioning with Microsoft Graph API](#example-1-automated-user-provisioning-with-microsoft-graph-api)
+    - [Example 2: Service Principal Creation and Permission Management](#example-2-service-principal-creation-and-permission-management)
+    - [Example 3: Certificate Management and Rotation](#example-3-certificate-management-and-rotation)
+    - [Example 4: Group-Based License Assignment Automation](#example-4-group-based-license-assignment-automation)
+  - [Troubleshooting](#troubleshooting)
+  - [Performance and Tuning](#performance-and-tuning)
+  - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

@@ -5,8 +5,9 @@
   - SESKA Computational Engineer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)
-**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)
+
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
+**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
 
 [![Framework](https://img.shields.io/badge/.NET-RabbitMQ-blue.svg)](https://www.rabbitmq.com/dotnet.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
@@ -14,8 +15,6 @@
 ## Overview
 
 RabbitMQ is a robust message broker implementing AMQP 0-9-1 protocol for asynchronous communication between distributed systems. This guide covers connection management, queue/exchange configuration, message publishing/consuming, acknowledgements, prefetch settings, and TLS security using the official .NET client library. Power users need to understand durability, routing patterns, dead-letter queues, and high-availability strategies for production message-driven architectures.
-
----
 
 ## Contents
 
@@ -34,6 +33,8 @@ RabbitMQ is a robust message broker implementing AMQP 0-9-1 protocol for asynchr
   - [Troubleshooting](#troubleshooting)
   - [Performance and Tuning](#performance-and-tuning)
   - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

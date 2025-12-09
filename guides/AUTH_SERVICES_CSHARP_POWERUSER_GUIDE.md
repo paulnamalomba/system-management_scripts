@@ -5,8 +5,9 @@
   - SESKA Computational Engineer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)
-**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)
+
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
+**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
 
 [![Framework](https://img.shields.io/badge/Enterprise-Auth_Services-blue.svg)](https://learn.microsoft.com/en-us/azure/active-directory/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
@@ -15,18 +16,25 @@
 
 Enterprise authentication services provide centralized identity management, single sign-on (SSO), multi-factor authentication (MFA), and federated identity protocols (OAuth2, OIDC, SAML) for securing distributed systems at scale. This guide covers implementation patterns in C# for integrating with identity providers, token validation, claim-based authorization, SCIM provisioning, certificate-based authentication, and audit logging. Power users need to understand token lifecycle management, refresh strategies, key rotation, HSM/KeyVault integration, and high-availability architectures for production authentication infrastructure.
 
----
-
 ## Contents
 
-- [Quickstart](#quickstart)
-- [Key Concepts](#key-concepts)
-- [Configuration and Best Practices](#configuration-and-best-practices)
-- [Security Considerations](#security-considerations)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Performance and Tuning](#performance-and-tuning)
-- [References and Further Reading](#references-and-further-reading)
+- [AUTH\_SERVICES PowerUser Guide (C#)](#auth_services-poweruser-guide-c)
+  - [Overview](#overview)
+  - [Contents](#contents)
+  - [Quickstart](#quickstart)
+  - [Key Concepts](#key-concepts)
+  - [Configuration and Best Practices](#configuration-and-best-practices)
+  - [Security Considerations](#security-considerations)
+  - [Examples](#examples)
+    - [Example 1: OAuth 2.0 Authorization Code Flow with PKCE](#example-1-oauth-20-authorization-code-flow-with-pkce)
+    - [Example 2: Custom Claims Transformation and Policy-Based Authorization](#example-2-custom-claims-transformation-and-policy-based-authorization)
+    - [Example 3: SCIM 2.0 User Provisioning Implementation](#example-3-scim-20-user-provisioning-implementation)
+    - [Example 4: Token Refresh and Rotation Strategy](#example-4-token-refresh-and-rotation-strategy)
+  - [Troubleshooting](#troubleshooting)
+  - [Performance and Tuning](#performance-and-tuning)
+  - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

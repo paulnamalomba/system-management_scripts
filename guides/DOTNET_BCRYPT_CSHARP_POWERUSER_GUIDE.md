@@ -5,8 +5,9 @@
   - SESKA Computational Engineer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)
-**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)
+
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
+**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
 
 [![Framework](https://img.shields.io/badge/.NET-BCrypt-blue.svg)](https://github.com/BcryptNet/bcrypt.net)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
@@ -15,18 +16,25 @@
 
 BCrypt.Net-Next is a robust password hashing library for .NET implementing the OpenBSD bcrypt algorithm with adaptive cost factors for future-proof security. This guide covers password hashing, verification, work factor selection, salt generation, and secure defaults for authentication systems. Power users need to understand computational cost tuning, hash format compatibility, and migration strategies for production applications.
 
----
-
 ## Contents
 
-- [Quickstart](#quickstart)
-- [Key Concepts](#key-concepts)
-- [Configuration and Best Practices](#configuration-and-best-practices)
-- [Security Considerations](#security-considerations)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Performance and Tuning](#performance-and-tuning)
-- [References and Further Reading](#references-and-further-reading)
+- [DOTNET BCrypt PowerUser Guide (C#)](#dotnet-bcrypt-poweruser-guide-c)
+  - [Overview](#overview)
+  - [Contents](#contents)
+  - [Quickstart](#quickstart)
+  - [Key Concepts](#key-concepts)
+  - [Configuration and Best Practices](#configuration-and-best-practices)
+  - [Security Considerations](#security-considerations)
+  - [Examples](#examples)
+    - [Basic Password Hashing and Verification](#basic-password-hashing-and-verification)
+    - [Custom Work Factor and Enhanced Entropy](#custom-work-factor-and-enhanced-entropy)
+    - [ASP.NET Core Authentication Implementation](#aspnet-core-authentication-implementation)
+    - [Password Migration and Rehashing Strategy](#password-migration-and-rehashing-strategy)
+  - [Troubleshooting](#troubleshooting)
+  - [Performance and Tuning](#performance-and-tuning)
+  - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

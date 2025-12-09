@@ -5,8 +5,9 @@
   - SESKA Computational Engineer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)
-**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)
+
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
+**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
 
 [![Framework](https://img.shields.io/badge/Docker-27.x-blue.svg)](https://docs.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
@@ -15,18 +16,26 @@
 
 Docker is a containerization platform enabling consistent application deployment across environments using lightweight, portable containers. This guide covers installation, image management, container orchestration, Docker Compose, networking, volume management, and security using PowerShell 7+ on Windows. Power users need to understand multi-stage builds, resource limits, health checks, and production deployment patterns for Windows container workloads.
 
----
-
 ## Contents
 
-- [Quickstart](#quickstart)
-- [Key Concepts](#key-concepts)
-- [Configuration and Best Practices](#configuration-and-best-practices)
-- [Security Considerations](#security-considerations)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Performance and Tuning](#performance-and-tuning)
-- [References and Further Reading](#references-and-further-reading)
+- [Docker PowerUser Guide (PowerShell)](#docker-poweruser-guide-powershell)
+  - [Overview](#overview)
+  - [Contents](#contents)
+  - [Quickstart](#quickstart)
+  - [Key Concepts](#key-concepts)
+  - [Configuration and Best Practices](#configuration-and-best-practices)
+  - [Security Considerations](#security-considerations)
+  - [Examples](#examples)
+    - [Container Lifecycle Management](#container-lifecycle-management)
+    - [Building and Managing Images](#building-and-managing-images)
+    - [Docker Compose Multi-Container Applications](#docker-compose-multi-container-applications)
+    - [Volume and Network Management](#volume-and-network-management)
+    - [System Monitoring and Cleanup](#system-monitoring-and-cleanup)
+  - [Troubleshooting](#troubleshooting)
+  - [Performance and Tuning](#performance-and-tuning)
+  - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

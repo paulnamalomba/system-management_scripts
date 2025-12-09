@@ -5,8 +5,9 @@
   - SESKA Computational Engineer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)
-**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)
+
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
+**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
 
 [![Framework](https://img.shields.io/badge/OpenSSL-3.x-red.svg)](https://www.openssl.org/docs/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
@@ -14,8 +15,6 @@
 ## Overview
 
 SSL/TLS provides encrypted communication channels for secure data transmission. This guide covers certificate generation, management, and verification using PowerShell and OpenSSL on Windows. Power users need to understand certificate lifecycle management, cipher suite configuration, and security best practices for production deployments.
-
----
 
 ## Contents
 
@@ -36,6 +35,8 @@ SSL/TLS provides encrypted communication channels for secure data transmission. 
   - [Troubleshooting](#troubleshooting)
   - [Performance and Tuning](#performance-and-tuning)
   - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

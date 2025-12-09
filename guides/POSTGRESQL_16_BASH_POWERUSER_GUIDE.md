@@ -5,8 +5,9 @@
   - SESKA Computational Engineer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)
-**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)
+
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
+**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
 
 [![Framework](https://img.shields.io/badge/PostgreSQL-16.x-blue.svg)](https://www.postgresql.org/docs/16/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
@@ -14,8 +15,6 @@
 ## Overview
 
 PostgreSQL 16 is an advanced open-source relational database with support for ACID transactions, JSON, full-text search, and extensibility. This guide covers installation, configuration, performance tuning, and administration using Bash on Linux systems. Power users need to understand connection pooling, query optimization, backup strategies, and replication for production deployments.
-
----
 
 ## Contents
 
@@ -36,6 +35,8 @@ PostgreSQL 16 is an advanced open-source relational database with support for AC
   - [Troubleshooting](#troubleshooting)
   - [Performance and Tuning](#performance-and-tuning)
   - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 
