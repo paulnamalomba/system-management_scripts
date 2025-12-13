@@ -16,8 +16,6 @@
 
 Docker is a containerization platform enabling consistent application deployment across environments using lightweight, portable containers. This guide covers installation, image management, container orchestration, Docker Compose, networking, volume management, and security using PowerShell 7+ on Windows. Power users need to understand multi-stage builds, resource limits, health checks, and production deployment patterns for Windows container workloads.
 
----
-
 ## Contents
 
 - [Docker PowerUser Guide (PowerShell)](#docker-poweruser-guide-powershell)
@@ -36,6 +34,8 @@ Docker is a containerization platform enabling consistent application deployment
   - [Troubleshooting](#troubleshooting)
   - [Performance and Tuning](#performance-and-tuning)
   - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

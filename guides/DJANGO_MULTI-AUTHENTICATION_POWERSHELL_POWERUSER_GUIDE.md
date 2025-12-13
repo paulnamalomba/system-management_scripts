@@ -16,8 +16,6 @@
 
 This guide targets PowerShell power users who operate and automate Django applications that implement multiple authentication mechanisms (username/password, OAuth2/OIDC, SAML, and MFA). It focuses on Windows-based operational tasks: provisioning environments, managing secrets and certificates, configuring reverse proxies, deploying Django services, and running diagnostics against authentication flows.
 
----
-
 ## Contents
 
 - [DJANGO Multi-Authentication PowerUser Guide (PowerShell)](#django-multi-authentication-poweruser-guide-powershell)
@@ -46,6 +44,8 @@ This guide targets PowerShell power users who operate and automate Django applic
   - [Performance and Tuning](#performance-and-tuning)
     - [Scaling and Observability](#scaling-and-observability)
   - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

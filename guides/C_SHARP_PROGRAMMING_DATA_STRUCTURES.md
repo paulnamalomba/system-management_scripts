@@ -18,8 +18,6 @@ This guide is a comprehensive reference for C# developers covering language fund
 
 Use this guide as a reference when designing APIs, choosing data structures, writing idiomatic C#, or preparing for production deployment across .NET platforms.
 
----
-
 ## Contents
 
 - [C# Programming — Data Structures, Classes, Coding Style \& Language Mechanics](#c-programming--data-structures-classes-coding-style--language-mechanics)

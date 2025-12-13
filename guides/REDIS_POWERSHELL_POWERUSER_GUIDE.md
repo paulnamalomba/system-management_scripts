@@ -16,8 +16,6 @@
 
 Redis is an in-memory data structure store used as a database, cache, message broker, and streaming engine. This guide covers installation, data structures, persistence, clustering, and performance optimization using PowerShell on Windows. Power users need to understand memory management, eviction policies, replication, and pub/sub patterns for production deployments.
 
----
-
 ## Contents
 
 - [REDIS PowerUser Guide (PowerShell)](#redis-poweruser-guide-powershell)
@@ -37,6 +35,8 @@ Redis is an in-memory data structure store used as a database, cache, message br
   - [Troubleshooting](#troubleshooting)
   - [Performance and Tuning](#performance-and-tuning)
   - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

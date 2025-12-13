@@ -16,8 +16,6 @@
 
 SSL/TLS provides encrypted communication channels for secure data transmission. This guide covers certificate generation, management, and verification using PowerShell and OpenSSL on Windows. Power users need to understand certificate lifecycle management, cipher suite configuration, and security best practices for production deployments.
 
----
-
 ## Contents
 
 - [SSL/TLS PowerUser Guide (PowerShell)](#ssltls-poweruser-guide-powershell)
@@ -37,6 +35,8 @@ SSL/TLS provides encrypted communication channels for secure data transmission. 
   - [Troubleshooting](#troubleshooting)
   - [Performance and Tuning](#performance-and-tuning)
   - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

@@ -16,8 +16,6 @@
 
 RabbitMQ is a robust message broker implementing AMQP 0-9-1 protocol for asynchronous communication between distributed systems. This guide covers connection management, queue/exchange configuration, message publishing/consuming, acknowledgements, prefetch settings, and TLS security using the official .NET client library. Power users need to understand durability, routing patterns, dead-letter queues, and high-availability strategies for production message-driven architectures.
 
----
-
 ## Contents
 
 - [DOTNET RabbitMQ PowerUser Guide (C#)](#dotnet-rabbitmq-poweruser-guide-c)
@@ -35,6 +33,8 @@ RabbitMQ is a robust message broker implementing AMQP 0-9-1 protocol for asynchr
   - [Troubleshooting](#troubleshooting)
   - [Performance and Tuning](#performance-and-tuning)
   - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

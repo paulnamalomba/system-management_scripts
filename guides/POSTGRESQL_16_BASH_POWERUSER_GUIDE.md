@@ -16,8 +16,6 @@
 
 PostgreSQL 16 is an advanced open-source relational database with support for ACID transactions, JSON, full-text search, and extensibility. This guide covers installation, configuration, performance tuning, and administration using Bash on Linux systems. Power users need to understand connection pooling, query optimization, backup strategies, and replication for production deployments.
 
----
-
 ## Contents
 
 - [POSTGRESQL 16 PowerUser Guide (Bash)](#postgresql-16-poweruser-guide-bash)
@@ -37,6 +35,8 @@ PostgreSQL 16 is an advanced open-source relational database with support for AC
   - [Troubleshooting](#troubleshooting)
   - [Performance and Tuning](#performance-and-tuning)
   - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

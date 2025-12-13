@@ -16,8 +16,6 @@
 
 SSL/TLS provides encrypted communication channels for secure data transmission. This guide covers certificate generation, management, and verification using Bash and OpenSSL on Linux systems. Power users need to understand certificate lifecycle management, cipher suite configuration, and security best practices for production deployments.
 
----
-
 ## Contents
 
 - [SSL/TLS PowerUser Guide (Bash)](#ssltls-poweruser-guide-bash)
@@ -38,6 +36,8 @@ SSL/TLS provides encrypted communication channels for secure data transmission. 
   - [Troubleshooting](#troubleshooting)
   - [Performance and Tuning](#performance-and-tuning)
   - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

@@ -16,8 +16,6 @@
 
 This guide focuses on implementing robust multi-authentication in Django using Python: combining username/password, OAuth2/OIDC (Google, Azure AD, GitHub), JWT for APIs, and optional SAML and MFA. It shows how to structure settings, authentication backends, URL routing, and views so that you can safely support multiple identity providers in one project.
 
----
-
 ## Contents
 
 - [DJANGO Multi-Authentication PowerUser Guide (Python)](#django-multi-authentication-poweruser-guide-python)
@@ -46,6 +44,8 @@ This guide focuses on implementing robust multi-authentication in Django using P
   - [Performance and Tuning](#performance-and-tuning)
     - [Scaling Auth-heavy APIs](#scaling-auth-heavy-apis)
   - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

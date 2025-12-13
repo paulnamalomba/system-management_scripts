@@ -16,8 +16,6 @@
 
 Enterprise authentication services provide centralized identity management, single sign-on (SSO), multi-factor authentication (MFA), and federated identity protocols for securing distributed systems at scale. This guide covers operational tasks using PowerShell 7+ on Windows for managing Azure AD, Active Directory Federation Services (AD FS), certificate authorities, token lifecycle automation, user provisioning via Microsoft Graph API, and security auditing. Power users need to understand certificate management, service principal automation, conditional access policies, and high-availability monitoring for production authentication infrastructure.
 
----
-
 ## Contents
 
 - [AUTH\_SERVICES PowerUser Guide (PowerShell)](#auth_services-poweruser-guide-powershell)
@@ -35,6 +33,8 @@ Enterprise authentication services provide centralized identity management, sing
   - [Troubleshooting](#troubleshooting)
   - [Performance and Tuning](#performance-and-tuning)
   - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

@@ -16,8 +16,6 @@
 
 This guide focuses on Linux and Bash workflows for deploying and operating Django applications that implement multiple authentication mechanisms. You will automate environment setup, systemd services, reverse proxy configuration (Nginx), TLS via Certbot, and basic diagnostics for multi-provider authentication.
 
----
-
 ## Contents
 
 - [DJANGO Multi-Authentication PowerUser Guide (Bash)](#django-multi-authentication-poweruser-guide-bash)
@@ -46,6 +44,8 @@ This guide focuses on Linux and Bash workflows for deploying and operating Djang
   - [Performance and Tuning](#performance-and-tuning)
     - [Gunicorn and Nginx Tuning](#gunicorn-and-nginx-tuning)
   - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 

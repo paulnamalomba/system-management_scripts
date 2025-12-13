@@ -16,8 +16,6 @@
 
 BCrypt.Net-Next is a robust password hashing library for .NET implementing the OpenBSD bcrypt algorithm with adaptive cost factors for future-proof security. This guide covers password hashing, verification, work factor selection, salt generation, and secure defaults for authentication systems. Power users need to understand computational cost tuning, hash format compatibility, and migration strategies for production applications.
 
----
-
 ## Contents
 
 - [DOTNET BCrypt PowerUser Guide (C#)](#dotnet-bcrypt-poweruser-guide-c)
@@ -35,6 +33,8 @@ BCrypt.Net-Next is a robust password hashing library for .NET implementing the O
   - [Troubleshooting](#troubleshooting)
   - [Performance and Tuning](#performance-and-tuning)
   - [References and Further Reading](#references-and-further-reading)
+
+---
 
 ## Quickstart
 
