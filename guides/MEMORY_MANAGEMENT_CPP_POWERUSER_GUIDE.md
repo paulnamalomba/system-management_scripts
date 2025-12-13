@@ -7,7 +7,7 @@
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
 
 **Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
-**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
+**Website**: [paulnamalomba.github.io](https://paulnamalomba.github.io)<br>
 
 [![Language: C++](https://img.shields.io/badge/Language-C%2B%2B-blue.svg)](https://learn.microsoft.com/cpp)
 [![Compiler: MSVC](https://img.shields.io/badge/Compiler-MSVC-0078D7.svg)](https://learn.microsoft.com/cpp/build/overview-of-the-microsoft-cpp-compiler)
@@ -32,7 +32,6 @@ This guide explains how C++ (MSVC on Windows) handles key memory and execution c
   - [Examples — Small Runnable Snippets](#examples--small-runnable-snippets)
   - [Windows / MSVC Specific Notes and Pitfalls](#windows--msvc-specific-notes-and-pitfalls)
   - [References](#references)
-
 
 ---
 
