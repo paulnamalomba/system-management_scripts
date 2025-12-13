@@ -5,6 +5,7 @@
   - SESKA Computational Engineer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
+
 **Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
 **Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
 

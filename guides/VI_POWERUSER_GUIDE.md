@@ -1,9 +1,11 @@
 # VI/VIM Power User Guide
 
+**Last updated**: December 12, 2025
 **Author**: [Paul Namalomba](https://github.com/paulnamalomba)<br>
   - SESKA Computational Engineer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
+
 **Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
 **Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
 
