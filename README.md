@@ -51,6 +51,8 @@ system-management_scripts/
 │   ├── POSTGRESQL_*.md      # Database administration
 │   ├── REDIS_*.md           # In-memory caching
 │   ├── SSL_TLS_*.md         # Certificate management
+│   ├── DJANGO_MULTI-AUTHENTICATION_*.md  # Django authentication strategies
+|   ├── C_SHARP_*.md         # C# guides
 │   └── VI_*.md              # Text editor mastery
 │
 ├── windows/                 # PowerShell automation scripts
@@ -79,6 +81,20 @@ system-management_scripts/
   
 - **[AUTH_SERVICES_POWERSHELL_POWERUSER_GUIDE.md](guides/AUTH_SERVICES_POWERSHELL_POWERUSER_GUIDE.md)**  
   Azure AD management with Microsoft Graph; service principal automation; conditional access policies; certificate-based auth
+
+### Programming LAnguages, Data Structures & Identity
+- **[C_SHARP_POWERSHELL_POWERUSER_GUIDE.md](guides/C_SHARP_POWERSHELL_POWERUSER_GUIDE.md)**  
+  C# development with PowerShell integration; compiling and running C# code; automating builds; interop scenarios
+
+### Django Development
+- **[DJANGO_MULTI-AUTHENTICATION_POWERSHELL_POWERUSER_GUIDE.md](guides/DJANGO_MULTI-AUTHENTICATION_POWERSHELL_POWERUSER_GUIDE.md)**  
+  Implementing authentication in Django applications; OAuth2 and JWT integration; user management; security best practices; setting up multi-factor authentication in Django; integrating with third-party MFA providers; enhancing application security
+
+- **[DJANGO_MULTI-AUTHENTICATION_PYTHON_POWERUSER_GUIDE.md](guides/DJANGO_MULTI-AUTHENTICATION_PYTHON_POWERUSER_GUIDE.md)**  
+  Implementing authentication in Django applications; OAuth2 and JWT integration; user management; security best practices; setting up multi-factor authentication in Django; integrating with third-party MFA providers; enhancing application security
+
+- **[DJANGO_MULTI-AUTHENTICATION_BASH_POWERUSER_GUIDE.md](guides/DJANGO_MULTI-AUTHENTICATION_BASH_POWERUSER_GUIDE.md)**  
+  Implementing authentication in Django applications; OAuth2 and JWT integration; user management; security best practices; setting up multi-factor authentication in Django; integrating with third-party MFA providers; enhancing application security
 
 ### .NET Development
 - **[DOTNET_BCRYPT_CSHARP_POWERUSER_GUIDE.md](guides/DOTNET_BCRYPT_CSHARP_POWERUSER_GUIDE.md)**  

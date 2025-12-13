@@ -19,14 +19,21 @@ Enterprise authentication services provide centralized identity management, sing
 
 ## Contents
 
-- [Quickstart](#quickstart)
-- [Key Concepts](#key-concepts)
-- [Configuration and Best Practices](#configuration-and-best-practices)
-- [Security Considerations](#security-considerations)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Performance and Tuning](#performance-and-tuning)
-- [References and Further Reading](#references-and-further-reading)
+- [AUTH\_SERVICES PowerUser Guide (C#)](#auth_services-poweruser-guide-c)
+  - [Overview](#overview)
+  - [Contents](#contents)
+  - [Quickstart](#quickstart)
+  - [Key Concepts](#key-concepts)
+  - [Configuration and Best Practices](#configuration-and-best-practices)
+  - [Security Considerations](#security-considerations)
+  - [Examples](#examples)
+    - [Example 1: OAuth 2.0 Authorization Code Flow with PKCE](#example-1-oauth-20-authorization-code-flow-with-pkce)
+    - [Example 2: Custom Claims Transformation and Policy-Based Authorization](#example-2-custom-claims-transformation-and-policy-based-authorization)
+    - [Example 3: SCIM 2.0 User Provisioning Implementation](#example-3-scim-20-user-provisioning-implementation)
+    - [Example 4: Token Refresh and Rotation Strategy](#example-4-token-refresh-and-rotation-strategy)
+  - [Troubleshooting](#troubleshooting)
+  - [Performance and Tuning](#performance-and-tuning)
+  - [References and Further Reading](#references-and-further-reading)
 
 ## Quickstart
 
