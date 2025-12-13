@@ -5,21 +5,22 @@
   - SESKA Computational Engineer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)
-**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
+**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
 
 <!-- [![PowerShell](https://img.shields.io/badge/PowerShell-7%2B-blue.svg)](https://github.com/PowerShell/PowerShell) -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
 
-A collection of system management scripts, automation utilities, and technical power user guides for developers, system administrators, and engineers. This repository provides mostly in-depth guides covering databases, containers, messaging systems, security, and enterprise authentication.
+## Overview
 
----
+A collection of system management scripts, automation utilities, and technical power user guides for developers, system administrators, and engineers. This repository provides mostly in-depth guides covering databases, containers, messaging systems, security, and enterprise authentication.
 
 ## Contents
 
 - [System Management Scripts](#system-management-scripts)
-  - [Contents](#contents)
   - [Overview](#overview)
+  - [Contents](#contents)
+  - [Purpose](#purpose)
   - [Repository Structure](#repository-structure)
   - [Power User Guides](#power-user-guides)
     - [Enterprise Authentication \& Identity](#enterprise-authentication--identity)
@@ -58,10 +59,10 @@ A collection of system management scripts, automation utilities, and technical p
   - [Contact](#contact)
   - [Acknowledgments](#acknowledgments)
   - [Statistics](#statistics)
-  
+
 ---
 
-## Overview
+## Purpose
 
 This repository serves two primary purposes:
 
@@ -69,8 +70,6 @@ This repository serves two primary purposes:
 2. **Automation Scripts**: Production-ready PowerShell scripts for Windows system management, file operations, GitHub workflows, and development automation
 
 All guides follow a consistent template with quickstart instructions, key concepts, configuration best practices, security considerations, detailed examples, troubleshooting tips, and performance tuning recommendations.
-
----
 
 ## Repository Structure
 

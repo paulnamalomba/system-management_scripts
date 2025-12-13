@@ -5,8 +5,8 @@
   - SESKA Computational Engineer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)
-**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
+**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
 
 [![Framework](https://img.shields.io/badge/PostgreSQL-16.x-blue.svg)](https://www.postgresql.org/docs/16/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
@@ -19,14 +19,23 @@ PostgreSQL 16 is an advanced open-source relational database with support for AC
 
 ## Contents
 
-- [Quickstart](#quickstart)
-- [Key Concepts](#key-concepts)
-- [Configuration and Best Practices](#configuration-and-best-practices)
-- [Security Considerations](#security-considerations)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Performance and Tuning](#performance-and-tuning)
-- [References and Further Reading](#references-and-further-reading)
+- [POSTGRESQL 16 PowerUser Guide (PowerShell)](#postgresql-16-poweruser-guide-powershell)
+  - [Overview](#overview)
+  - [Contents](#contents)
+  - [Quickstart](#quickstart)
+  - [Key Concepts](#key-concepts)
+  - [Configuration and Best Practices](#configuration-and-best-practices)
+  - [Security Considerations](#security-considerations)
+  - [Examples](#examples)
+    - [Install and Configure PostgreSQL 16](#install-and-configure-postgresql-16)
+    - [Database and User Management](#database-and-user-management)
+    - [Backup and Restore Operations](#backup-and-restore-operations)
+    - [Query Execution and Analysis](#query-execution-and-analysis)
+    - [Index Management and Optimization](#index-management-and-optimization)
+    - [Maintenance Operations](#maintenance-operations)
+  - [Troubleshooting](#troubleshooting)
+  - [Performance and Tuning](#performance-and-tuning)
+  - [References and Further Reading](#references-and-further-reading)
 
 ## Quickstart
 

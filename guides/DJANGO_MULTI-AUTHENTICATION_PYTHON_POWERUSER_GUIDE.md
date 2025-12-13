@@ -5,8 +5,8 @@
   - SESKA Computational Engineer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)
-**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
+**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
 
 [![Framework](https://img.shields.io/badge/Django-4.x-blue.svg)](https://docs.djangoproject.com/en/4.2/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
@@ -19,29 +19,32 @@ This guide focuses on implementing robust multi-authentication in Django using P
 
 ## Contents
 
-- [Quickstart](#quickstart)
-  - [Install and Scaffold Project](#install-and-scaffold-project)
-  - [Core Dependencies](#core-dependencies)
-- [Key Concepts](#key-concepts)
-  - [Authentication Backends](#authentication-backends)
-  - [Session vs Token Auth](#session-vs-token-auth)
-- [Configuration and Best Practices](#configuration-and-best-practices)
-  - [Settings Layout](#settings-layout)
-  - [Environment Variables](#environment-variables)
-- [Security Considerations](#security-considerations)
-  - [Password Storage and MFA](#password-storage-and-mfa)
-  - [Token Handling](#token-handling)
-- [Examples](#examples)
-  - [Example 1: Base Auth Setup](#example-1-base-auth-setup)
-  - [Example 2: OAuth2/OIDC with Social Login](#example-2-oauth2oidc-with-social-login)
-  - [Example 3: JWT for APIs](#example-3-jwt-for-apis)
-  - [Example 4: MFA with django-otp](#example-4-mfa-with-django-otp)
-- [Troubleshooting](#troubleshooting)
-  - [Common Configuration Errors](#common-configuration-errors)
-  - [Debugging Tips](#debugging-tips)
-- [Performance and Tuning](#performance-and-tuning)
-  - [Scaling Auth-heavy APIs](#scaling-auth-heavy-apis)
-- [References and Further Reading](#references-and-further-reading)
+- [DJANGO Multi-Authentication PowerUser Guide (Python)](#django-multi-authentication-poweruser-guide-python)
+  - [Overview](#overview)
+  - [Contents](#contents)
+  - [Quickstart](#quickstart)
+    - [Install and Scaffold Project](#install-and-scaffold-project)
+    - [Core Dependencies](#core-dependencies)
+  - [Key Concepts](#key-concepts)
+    - [Authentication Backends](#authentication-backends)
+    - [Session vs Token Auth](#session-vs-token-auth)
+  - [Configuration and Best Practices](#configuration-and-best-practices)
+    - [Settings Layout](#settings-layout)
+    - [Environment Variables](#environment-variables)
+  - [Security Considerations](#security-considerations)
+    - [Password Storage and MFA](#password-storage-and-mfa)
+    - [Token Handling](#token-handling)
+  - [Examples](#examples)
+    - [Example 1: Base Auth Setup](#example-1-base-auth-setup)
+    - [Example 2: OAuth2/OIDC with Social Login](#example-2-oauth2oidc-with-social-login)
+    - [Example 3: JWT for APIs](#example-3-jwt-for-apis)
+    - [Example 4: MFA with django-otp](#example-4-mfa-with-django-otp)
+  - [Troubleshooting](#troubleshooting)
+    - [Common Configuration Errors](#common-configuration-errors)
+    - [Debugging Tips](#debugging-tips)
+  - [Performance and Tuning](#performance-and-tuning)
+    - [Scaling Auth-heavy APIs](#scaling-auth-heavy-apis)
+  - [References and Further Reading](#references-and-further-reading)
 
 ## Quickstart
 

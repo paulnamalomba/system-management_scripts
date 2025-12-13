@@ -5,8 +5,8 @@
   - SESKA Computational Engineer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)
-**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
+**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
 
 [![Framework](https://img.shields.io/badge/Django-4.x-blue.svg)](https://docs.djangoproject.com/en/4.2/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
@@ -19,29 +19,32 @@ This guide focuses on Linux and Bash workflows for deploying and operating Djang
 
 ## Contents
 
-- [Quickstart](#quickstart)
-  - [System Preparation](#system-preparation)
-  - [Project Bootstrap](#project-bootstrap)
-- [Key Concepts](#key-concepts)
-  - [Process Layout](#process-layout)
-  - [Separation of Concerns](#separation-of-concerns)
-- [Configuration and Best Practices](#configuration-and-best-practices)
-  - [Environment Files](#environment-files)
-  - [systemd and Nginx](#systemd-and-nginx)
-- [Security Considerations](#security-considerations)
-  - [Permissions and Ownership](#permissions-and-ownership)
-  - [TLS and HSTS](#tls-and-hsts)
-- [Examples](#examples)
-  - [Example 1: Bootstrap Django Project](#example-1-bootstrap-django-project)
-  - [Example 2: Configure systemd Service](#example-2-configure-systemd-service)
-  - [Example 3: Nginx and Certbot](#example-3-nginx-and-certbot)
-  - [Example 4: Auth Diagnostics Script](#example-4-auth-diagnostics-script)
-- [Troubleshooting](#troubleshooting)
-  - [Common Deployment Issues](#common-deployment-issues)
-  - [Log Inspection](#log-inspection)
-- [Performance and Tuning](#performance-and-tuning)
-  - [Gunicorn and Nginx Tuning](#gunicorn-and-nginx-tuning)
-- [References and Further Reading](#references-and-further-reading)
+- [DJANGO Multi-Authentication PowerUser Guide (Bash)](#django-multi-authentication-poweruser-guide-bash)
+  - [Overview](#overview)
+  - [Contents](#contents)
+  - [Quickstart](#quickstart)
+    - [System Preparation](#system-preparation)
+    - [Project Bootstrap](#project-bootstrap)
+  - [Key Concepts](#key-concepts)
+    - [Process Layout](#process-layout)
+    - [Separation of Concerns](#separation-of-concerns)
+  - [Configuration and Best Practices](#configuration-and-best-practices)
+    - [Environment Files](#environment-files)
+    - [systemd and Nginx](#systemd-and-nginx)
+  - [Security Considerations](#security-considerations)
+    - [Permissions and Ownership](#permissions-and-ownership)
+    - [TLS and HSTS](#tls-and-hsts)
+  - [Examples](#examples)
+    - [Example 1: Bootstrap Django Project](#example-1-bootstrap-django-project)
+    - [Example 2: Configure systemd Service](#example-2-configure-systemd-service)
+    - [Example 3: Nginx and Certbot](#example-3-nginx-and-certbot)
+    - [Example 4: Auth Diagnostics Script](#example-4-auth-diagnostics-script)
+  - [Troubleshooting](#troubleshooting)
+    - [Common Deployment Issues](#common-deployment-issues)
+    - [Log Inspection](#log-inspection)
+  - [Performance and Tuning](#performance-and-tuning)
+    - [Gunicorn and Nginx Tuning](#gunicorn-and-nginx-tuning)
+  - [References and Further Reading](#references-and-further-reading)
 
 ## Quickstart
 

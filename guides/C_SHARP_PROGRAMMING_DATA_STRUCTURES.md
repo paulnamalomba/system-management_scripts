@@ -1,17 +1,15 @@
 # C# Programming — Data Structures, Classes, Coding Style & Language Mechanics
 
 **Last updated**: December 13, 2025  
-**Author**: [Paul Namalomba](https://github.com/paulnamalomba)  
-  - SESKA Computational Engineer  
-  - Software Developer  
-  - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)  
-**Contact**: [kabwenzenamalomba@gmail.com](mailto:kabwenzenamalomba@gmail.com)  
-**Website**: [https://paulnamalomba.github.io](https://paulnamalomba.github.io)
+**Author**: [Paul Namalomba](https://github.com/paulnamalomba)<br>
+  - SESKA Computational Engineer<br>
+  - Software Developer<br>
+  - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
+**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
 
 [![Language: C#](https://img.shields.io/badge/Language-C%23-239120.svg)](https://docs.microsoft.com/dotnet/csharp/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
-
----
 
 ## Overview
 

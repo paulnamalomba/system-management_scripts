@@ -1,5 +1,79 @@
 # VI/VIM Power User Guide
 
+**Author**: [Paul Namalomba](https://github.com/paulnamalomba)<br>
+  - SESKA Computational Engineer<br>
+  - Software Developer<br>
+  - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
+**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
+
+[![Editor: Vi/Vim](https://img.shields.io/badge/Editor-Vi%2FVim-2C4F4F.svg)](https://www.vim.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
+
+## Overview
+
+This guide provides a comprehensive overview of Vi/Vim text editors, focusing on advanced navigation, editing techniques, and customization options. It is designed for power users who want to enhance their productivity and efficiency while working with text files in Vi/Vim.
+
+# Contents
+
+- [VI/VIM Power User Guide](#vivim-power-user-guide)
+  - [Overview](#overview)
+- [Contents](#contents)
+  - [Mode System](#mode-system)
+  - [Basic Navigation](#basic-navigation)
+    - [Character Movement](#character-movement)
+    - [Word Movement](#word-movement)
+    - [Line Movement](#line-movement)
+  - [Advanced Navigation](#advanced-navigation)
+    - [Screen Movement](#screen-movement)
+    - [Scrolling](#scrolling)
+    - [File Movement](#file-movement)
+    - [Jump Commands](#jump-commands)
+    - [Marks](#marks)
+  - [Searching](#searching)
+    - [Basic Search](#basic-search)
+    - [Search Options](#search-options)
+  - [Editing Commands](#editing-commands)
+    - [Insert Mode](#insert-mode)
+    - [Delete Commands](#delete-commands)
+    - [Copy (Yank) Commands](#copy-yank-commands)
+    - [Paste Commands](#paste-commands)
+    - [Undo/Redo](#undoredo)
+  - [Visual Mode](#visual-mode)
+    - [Entering Visual Mode](#entering-visual-mode)
+    - [Visual Mode Operations](#visual-mode-operations)
+  - [Text Objects](#text-objects)
+    - [Inner vs Around](#inner-vs-around)
+    - [Paired Objects](#paired-objects)
+  - [Command-Line Mode (Ex Commands)](#command-line-mode-ex-commands)
+    - [File Operations](#file-operations)
+    - [Line Numbers and Ranges](#line-numbers-and-ranges)
+    - [Search and Replace](#search-and-replace)
+    - [Multiple Files](#multiple-files)
+    - [Windows (Splits)](#windows-splits)
+    - [Tabs](#tabs)
+  - [Advanced Features](#advanced-features)
+    - [Macros](#macros)
+    - [Registers](#registers)
+    - [Folding](#folding)
+    - [Indentation](#indentation)
+    - [Case Manipulation](#case-manipulation)
+    - [Increment/Decrement Numbers](#incrementdecrement-numbers)
+  - [Configuration](#configuration)
+    - [Settings](#settings)
+    - [Common Settings](#common-settings)
+  - [Power User Combinations](#power-user-combinations)
+    - [Quick Navigation Patterns](#quick-navigation-patterns)
+    - [Efficient Editing](#efficient-editing)
+    - [Multiple Operations](#multiple-operations)
+    - [Complex Commands](#complex-commands)
+  - [Cheat Sheet Quick Reference](#cheat-sheet-quick-reference)
+    - [Essential Commands](#essential-commands)
+    - [Speed Tips](#speed-tips)
+  - [Help System](#help-system)
+
+---
+
 ## Mode System
 
 Vi/Vim operates in different modes:
