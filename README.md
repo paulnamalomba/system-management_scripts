@@ -1,32 +1,64 @@
 # System Management Scripts
 
-**Author**: [Paul Namalomba](https://paulnamalomba.github.io)  
-**License**: MIT
+**Last updated**: December 13, 2025<br>
+**Author**: [Paul Namalomba](https://github.com/paulnamalomba)<br>
+  - SESKA Computational Engineer<br>
+  - Software Developer<br>
+  - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)
+**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)
 
-[![PowerShell](https://img.shields.io/badge/PowerShell-7%2B-blue.svg)](https://github.com/PowerShell/PowerShell)
+<!-- [![PowerShell](https://img.shields.io/badge/PowerShell-7%2B-blue.svg)](https://github.com/PowerShell/PowerShell) -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
 
 A collection of system management scripts, automation utilities, and technical power user guides for developers, system administrators, and engineers. This repository provides mostly in-depth guides covering databases, containers, messaging systems, security, and enterprise authentication.
 
 ---
 
-## Table of Contents
+## Contents
 
-- [Overview](#overview)
-- [Repository Structure](#repository-structure)
-- [Power User Guides](#power-user-guides)
-  - [Enterprise Authentication & Identity](#enterprise-authentication--identity)
-  - [ .NET Development](#net-development)
-  - [Containerization & DevOps](#containerization--devops)
-  - [Databases](#databases)
-  - [Security & Networking](#security--networking)
-  - [Development Tools](#development-tools)
-- [PowerShell Scripts](#powershell-scripts)
-- [Getting Started](#getting-started)
-- [Usage Examples](#usage-examples)
-- [Contributing](#contributing)
-- [License](#license)
-
+- [System Management Scripts](#system-management-scripts)
+  - [Contents](#contents)
+  - [Overview](#overview)
+  - [Repository Structure](#repository-structure)
+  - [Power User Guides](#power-user-guides)
+    - [Enterprise Authentication \& Identity](#enterprise-authentication--identity)
+    - [Programming LAnguages, Data Structures \& Identity](#programming-languages-data-structures--identity)
+    - [Django Development](#django-development)
+    - [.NET Development](#net-development)
+    - [Containerization \& DevOps](#containerization--devops)
+    - [Databases](#databases)
+    - [Security \& Networking](#security--networking)
+    - [Development Tools](#development-tools)
+  - [PowerShell Scripts](#powershell-scripts)
+    - [Directory Navigation (`directory-navigation.ps1`)](#directory-navigation-directory-navigationps1)
+    - [File Operations (`file-operations.ps1`)](#file-operations-file-operationsps1)
+    - [GitHub Management (`github-management.ps1`)](#github-management-github-managementps1)
+    - [Document Conversion (`document-conversion.ps1`)](#document-conversion-document-conversionps1)
+    - [Python Environment (`python-environment.ps1`)](#python-environment-python-environmentps1)
+    - [Profile Management (`profile-management.ps1`)](#profile-management-profile-managementps1)
+    - [Utility Functions (`utility-functions.ps1`)](#utility-functions-utility-functionsps1)
+    - [File System Management (`file-system_management.ps1`)](#file-system-management-file-system_managementps1)
+    - [File Size Lister (`filesize-lister.ps1`)](#file-size-lister-filesize-listerps1)
+    - [Media Download (`media-download.ps1`)](#media-download-media-downloadps1)
+    - [Job Scheduler (`job-scheduler_template.ps1`)](#job-scheduler-job-scheduler_templateps1)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Usage Examples](#usage-examples)
+    - [Example 1: Quick Directory Navigation](#example-1-quick-directory-navigation)
+    - [Example 2: GitHub Workflow Automation](#example-2-github-workflow-automation)
+    - [Example 3: File Operations](#example-3-file-operations)
+    - [Example 4: Python Environment Setup](#example-4-python-environment-setup)
+    - [Example 5: System Analysis](#example-5-system-analysis)
+    - [Example 6: Using Technical Guides](#example-6-using-technical-guides)
+  - [Contributing](#contributing)
+    - [Contribution Guidelines](#contribution-guidelines)
+  - [License](#license)
+  - [Contact](#contact)
+  - [Acknowledgments](#acknowledgments)
+  - [Statistics](#statistics)
+  
 ---
 
 ## Overview
@@ -395,7 +427,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - GitHub: [@paulnamalomba](https://github.com/paulnamalomba)
 - Email: kabwenzenamalomba@gmail.com
 - Website: [https://paulnamalomba.github.io](https://paulnamalomba.github.io)
-- LinkedIn: [Paul Namalomba](https://www.linkedin.com/in/paul-namalomba/)
+- LinkedIn: [Paul Namalomba](https://www.linkedin.com/in/paulnamalomba/)
 
 ---
 
@@ -410,7 +442,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Statistics
 
-- **Power User Guides**: 11 comprehensive technical guides
+- **Power User Guides**: 15 comprehensive technical guides
 - **PowerShell Scripts**: 11 automation script collections
 - **Technologies Covered**: Docker, PostgreSQL, Redis, RabbitMQ, Azure AD, SSL/TLS, .NET, and more
 - **Lines of Documentation**: 10,000+ lines of technical documentation
@@ -418,7 +450,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Last Updated**: December 5, 2025  
+**Last Updated**: December 13, 2025  
 **Repository Status**: Active Development  
 **PowerShell Version**: 7.0+  
 **Windows Compatibility**: Windows 10/11, Server 2016+
