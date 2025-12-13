@@ -7,7 +7,7 @@
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
 
 **Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
-**Website**: [https://paulnamalomba.github.io](paulnamalomba.github.io)<br>
+**Website**: [paulnamalomba.github.io](https://paulnamalomba.github.io)<br>
 
 [![Language: Python](https://img.shields.io/badge/Language-Python-3776AB.svg)](https://www.python.org/)
 [![Interpreter: CPython](https://img.shields.io/badge/Interpreter-CPython-FFD43B.svg)](https://docs.python.org/3/c-api/intro.html)
