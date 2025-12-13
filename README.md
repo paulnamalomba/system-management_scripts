@@ -115,7 +115,7 @@ system-management_scripts/
   Azure AD management with Microsoft Graph; service principal automation; conditional access policies; certificate-based auth
 
 ### Programming LAnguages, Data Structures & Identity
-- **[C_SHARP_POWERSHELL_POWERUSER_GUIDE.md](guides/C_SHARP_POWERSHELL_POWERUSER_GUIDE.md)**  
+- **[C_SHARP_PROGRAMMING_DATA_STRUCTURES.md](guides/C_SHARP_PROGRAMMING_DATA_STRUCTURES.md)**  
   C# development with PowerShell integration; compiling and running C# code; automating builds; interop scenarios
 
 ### Django Development
