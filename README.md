@@ -10,6 +10,7 @@
 
 A collection of system management scripts, automation utilities, and technical power user guides for developers, system administrators, and engineers. This repository provides mostly in-depth guides covering databases, containers, messaging systems, security, and enterprise authentication.
 
+<br>
 **Last updated**: January 22, 2025<br>
 **Author: [Paul Namalomba](https://github.com/paulnamalomba)**<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
@@ -19,6 +20,7 @@ A collection of system management scripts, automation utilities, and technical p
 
 **Contact**: [Personal Email](kabwenzenamalomba@gmail.com)<br>
 **Website**: [Website - paulnamalomba.github.io](https://paulnamalomba.github.io)<br>
+<br>
 
 ## Contents
 
