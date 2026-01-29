@@ -1,24 +1,28 @@
-# System Management Scripts
-
-**Last updated**: December 13, 2025<br>
-**Author**: [Paul Namalomba](https://github.com/paulnamalomba)<br>
-  - SESKA Computational Engineer<br>
-  - Software Developer<br>
-  - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-
-**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
-**Website**: [paulnamalomba.github.io](https://paulnamalomba.github.io)<br>
+# Technical Guide and System/Server Management Scripts
 
 <!-- [![PowerShell](https://img.shields.io/badge/PowerShell-7%2B-blue.svg)](https://github.com/PowerShell/PowerShell) -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
+[![Power User Guides](https://img.shields.io/badge/Power%20User%20Guides-15-green.svg)](#)
+[![PowerShell Scripts](https://img.shields.io/badge/PowerShell%20Scripts-11-yellow.svg)](#)
+[![Technologies Covered](https://img.shields.io/badge/Technologies-Docker%2C%20PostgreSQL%2C%20Redis%2C%20RabbitMQ%2C%20Azure%20AD%2C%20SSL%2FTLS%2C%20.NET-blue.svg)](#)
 
 ## Overview
 
 A collection of system management scripts, automation utilities, and technical power user guides for developers, system administrators, and engineers. This repository provides mostly in-depth guides covering databases, containers, messaging systems, security, and enterprise authentication.
 
+**Last updated**: January 22, 2025<br>
+**Author: [Paul Namalomba](https://github.com/paulnamalomba)**<br>
+  - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
+- - SESKA Computational Engineer<br>
+  - Software Developer<br>
+  - Data Engineer<br>
+
+**Contact**: [Personal Email](kabwenzenamalomba@gmail.com)<br>
+**Website**: [Website - paulnamalomba.github.io](https://paulnamalomba.github.io)<br>
+
 ## Contents
 
-- [System Management Scripts](#system-management-scripts)
+- [Technical Guide and System/Server Management Scripts](#technical-guide-and-systemserver-management-scripts)
   - [Overview](#overview)
   - [Contents](#contents)
   - [Purpose](#purpose)
