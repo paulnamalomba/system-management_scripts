@@ -14,7 +14,7 @@
 
 ## Overview
 
-Thos document provides a comprehensive overview of the most widely used API architectures and protocols in modern software development. It covers REST, SOAP, gRPC, GraphQL, WebHooks, WebSockets, and WebRTC, explaining their technical cores, how they work, language support, reasons for use, and real-world industry applications.
+This document provides a comprehensive overview of the most widely used API architectures and protocols in modern software development. It covers REST, SOAP, gRPC, GraphQL, WebHooks, WebSockets, and WebRTC, explaining their technical cores, how they work, language support, reasons for use, and real-world industry applications.
 
 ## Contents
 
