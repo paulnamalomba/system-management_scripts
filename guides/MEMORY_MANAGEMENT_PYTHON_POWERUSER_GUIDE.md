@@ -3,11 +3,12 @@
 **Last updated**: December 13, 2025<br>
 **Author**: [Paul Namalomba](https://github.com/paulnamalomba)<br>
   - SESKA Computational Engineer<br>
+  - SEAT Backend Developer<br>
   - Software Developer<br>
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-
 **Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
 **Website**: [paulnamalomba.github.io](https://paulnamalomba.github.io)<br>
+<br>
 
 [![Language: Python](https://img.shields.io/badge/Language-Python-3776AB.svg)](https://www.python.org/)
 [![Interpreter: CPython](https://img.shields.io/badge/Interpreter-CPython-FFD43B.svg)](https://docs.python.org/3/c-api/intro.html)

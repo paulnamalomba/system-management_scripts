@@ -1,5 +1,6 @@
 # Memory-Aware Batching, Threading & MPI Chunking for Large Database Operations
 
+<br>
 **Last updated**: February 16, 2026<br>
 **Author**: [Paul Namalomba](https://github.com/paulnamalomba)<br>
   - SESKA Computational Engineer<br>
@@ -8,12 +9,12 @@
   - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
 **Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
 **Website**: [paulnamalomba.github.io](https://paulnamalomba.github.io)<br>
-
+<br>
 [![Language: Python](https://img.shields.io/badge/Language-Python-3776AB.svg)](https://www.python.org/)
 <!-- [![Language: C++](https://img.shields.io/badge/Language-C%2B%2B-blue.svg)](https://learn.microsoft.com/cpp) -->
 [![HPC: MPI](https://img.shields.io/badge/HPC-MPI-orange.svg)](https://www.mpi-forum.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
-
+<br>
 *C++ will come in a future update. For now, the Python implementation demonstrates the core algorithm effectively.*
 
 ## Context

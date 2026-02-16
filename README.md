@@ -1,5 +1,15 @@
 # Technical Guide and System/Server Management Scripts
 
+<br>
+**Last updated**: February 16, 2026<br>
+**Author**: [Paul Namalomba](https://github.com/paulnamalomba)<br>
+  - SESKA Computational Engineer<br>
+  - SEAT Backend Developer<br>
+  - Software Developer<br>
+  - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
+**Contact**: [kabwenzenamalomba@gmail.com](kabwenzenamalomba@gmail.com)<br>
+**Website**: [paulnamalomba.github.io](https://paulnamalomba.github.io)<br>
+
 <!-- [![PowerShell](https://img.shields.io/badge/PowerShell-7%2B-blue.svg)](https://github.com/PowerShell/PowerShell) -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-gray.svg)](https://opensource.org/licenses/MIT)
 [![Power User Guides](https://img.shields.io/badge/Power%20User%20Guides-15-green.svg)](#)
@@ -10,24 +20,13 @@
 
 A collection of system management scripts, automation utilities, and technical power user guides for developers, system administrators, and engineers. This repository provides mostly in-depth guides covering databases, containers, messaging systems, security, and enterprise authentication.
 
-<br>
-**Last updated**: January 22, 2025<br>
-**Author: [Paul Namalomba](https://github.com/paulnamalomba)**<br>
-  - PhD Candidate (Civil Engineering Spec. Computational and Applied Mechanics)<br>
-- - SESKA Computational Engineer<br>
-  - Software Developer<br>
-  - Data Engineer<br>
-
-**Contact**: [Personal Email](kabwenzenamalomba@gmail.com)<br>
-**Website**: [Website - paulnamalomba.github.io](https://paulnamalomba.github.io)<br>
-<br>
-
 ## Contents
 
 - [Technical Guide and System/Server Management Scripts](#technical-guide-and-systemserver-management-scripts)
   - [Overview](#overview)
   - [Contents](#contents)
   - [Purpose](#purpose)
+    - [This repository serves two primary purposes:](#this-repository-serves-two-primary-purposes)
   - [Repository Structure](#repository-structure)
   - [Power User Guides](#power-user-guides)
     - [Enterprise Authentication \& Identity](#enterprise-authentication--identity)
@@ -39,17 +38,17 @@ A collection of system management scripts, automation utilities, and technical p
     - [Security \& Networking](#security--networking)
     - [Development Tools](#development-tools)
   - [PowerShell Scripts](#powershell-scripts)
-    - [Directory Navigation (`directory-navigation.ps1`)](#directory-navigation-directory-navigationps1)
-    - [File Operations (`file-operations.ps1`)](#file-operations-file-operationsps1)
-    - [GitHub Management (`github-management.ps1`)](#github-management-github-managementps1)
-    - [Document Conversion (`document-conversion.ps1`)](#document-conversion-document-conversionps1)
-    - [Python Environment (`python-environment.ps1`)](#python-environment-python-environmentps1)
-    - [Profile Management (`profile-management.ps1`)](#profile-management-profile-managementps1)
-    - [Utility Functions (`utility-functions.ps1`)](#utility-functions-utility-functionsps1)
-    - [File System Management (`file-system_management.ps1`)](#file-system-management-file-system_managementps1)
-    - [File Size Lister (`filesize-lister.ps1`)](#file-size-lister-filesize-listerps1)
-    - [Media Download (`media-download.ps1`)](#media-download-media-downloadps1)
-    - [Job Scheduler (`job-scheduler_template.ps1`)](#job-scheduler-job-scheduler_templateps1)
+    - [Directory Navigation](#directory-navigation)
+    - [File Operations](#file-operations)
+    - [GitHub Management](#github-management)
+    - [Document Conversion](#document-conversion)
+    - [Python Environment](#python-environment)
+    - [Profile Management](#profile-management)
+    - [Utility Functions](#utility-functions)
+    - [File System Management](#file-system-management)
+    - [File Size Lister](#file-size-lister)
+    - [Media Download](#media-download)
+    - [Job Scheduler](#job-scheduler)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
@@ -63,7 +62,6 @@ A collection of system management scripts, automation utilities, and technical p
   - [Contributing](#contributing)
     - [Contribution Guidelines](#contribution-guidelines)
   - [License](#license)
-  - [Contact](#contact)
   - [Acknowledgments](#acknowledgments)
   - [Statistics](#statistics)
 
@@ -71,10 +69,10 @@ A collection of system management scripts, automation utilities, and technical p
 
 ## Purpose
 
-This repository serves two primary purposes:
+### This repository serves two primary purposes:
 
-1. **Technical Documentation**: Comprehensive power user guides for backend engineers, platform engineers, security engineers, and SREs covering enterprise-level technologies
-2. **Automation Scripts**: Production-ready PowerShell scripts for Windows system management, file operations, GitHub workflows, and development automation
+- **Technical Documentation**: Comprehensive power user guides for backend engineers, platform engineers, security engineers, and SREs covering enterprise-level technologies
+- **Automation Scripts**: Production-ready PowerShell scripts for Windows system management, file operations, GitHub workflows, and development automation
 
 All guides follow a consistent template with quickstart instructions, key concepts, configuration best practices, security considerations, detailed examples, troubleshooting tips, and performance tuning recommendations.
 
@@ -124,14 +122,21 @@ system-management_scripts/
 
 ### Programming LAnguages, Data Structures & Identity
 
+- **[BATCH_THREADING_AND_MPI_FOR_LARGE_DB_OPS.md](guides/BATCH_THREADING_AND_MPI_FOR_LARGE_DB_OPS.md)**  
+  Efficiently performing large database operations using batch processing, threading, and MPI; memory management; performance tuning; Python and C++ implementations
+
 - **[C_SHARP_PROGRAMMING_DATA_STRUCTURES.md](guides/C_SHARP_PROGRAMMING_DATA_STRUCTURES.md)**  
   C# development with PowerShell integration; compiling and running C# code; automating builds; interop scenarios
+
 - **[MEMORY_MANAGEMENT_CSHARP_POWERUSER_GUIDE.md](guides/MEMORY_MANAGEMENT_CSHARP_POWERUSER_GUIDE.md)**  
   C# memory management on Windows; value vs reference types; stack vs heap storage; copy semantics; nullability features
+
 - **[MEMORY_MANAGEMENT_CPP_POWERUSER_GUIDE.md](guides/MEMORY_MANAGEMENT_CPP_POWERUSER_GUIDE.md)**  
   C++ memory management on Windows (MSVC); value vs reference semantics; stack vs heap storage; copy semantics; nullability
+
 - **[MEMORY_MANAGEMENT_PYTHON_POWERUSER_GUIDE.md](guides/MEMORY_MANAGEMENT_PYTHON_POWERUSER_GUIDE.md)**  
   Python memory management (CPython on Windows); value vs reference semantics; heap storage; copy semantics; nullability
+  
 - **[MEMORY_MANAGEMENT_JAVASCRIPT_POWERUSER_GUIDE.md](guides/MEMORY_MANAGEMENT_JAVASCRIPT_POWERUSER_GUIDE.md)**  
   JavaScript memory management (Node.js on Windows); value vs reference types; heap-managed objects; copy semantics; nullability
 
@@ -160,6 +165,10 @@ system-management_scripts/
   Docker container management on Windows; multi-stage builds; Docker Compose; volume management; networking
 
 ### Databases
+
+- **[BATCH_THREADING_AND_MPI_FOR_LARGE_DB_OPS.md](guides/BATCH_THREADING_AND_MPI_FOR_LARGE_DB_OPS.md)**  
+  Efficiently performing large database operations using batch processing, threading, and MPI; memory management; performance tuning; Python and C++ implementations
+
 - **[POSTGRESQL_16_BASH_POWERUSER_GUIDE.md](guides/POSTGRESQL_16_BASH_POWERUSER_GUIDE.md)**  
   PostgreSQL administration on Linux; performance tuning; backup strategies; replication; query optimization
   
@@ -186,97 +195,108 @@ system-management_scripts/
 
 ## PowerShell Scripts
 
-### Directory Navigation (`directory-navigation.ps1`)
+### Directory Navigation 
 
-Quick navigation functions for common directories:
-- `ChDir-Work` - Navigate to work directory
-- `ChDir-Documents` - Navigate to Documents folder
-- `ChDir-Downloads` - Navigate to Downloads folder
-- `ChDir-Desktop` - Navigate to Desktop
-- `ChDir-OneDrive` - Navigate to OneDrive directory
+- **[directory-navigation.ps1](windows/directory-navigation.ps1)**
+  - Quick navigation functions for common directories:
+    - `ChDir-Work` - Navigate to work directory
+    - `ChDir-Documents` - Navigate to Documents folder
+    - `ChDir-Downloads` - Navigate to Downloads folder
+    - `ChDir-Desktop` - Navigate to Desktop
+    - `ChDir-OneDrive` - Navigate to OneDrive directory
 
-### File Operations (`file-operations.ps1`)
+### File Operations 
 
-Advanced file and folder operations:
-- `MoveItem-Overwrite` - Move with automatic overwrite
-- `CopyItem-Safe` - Safe copy with conflict handling
-- `Remove-EmptyDirectories` - Clean up empty folders recursively
-- `Get-FileHash-Bulk` - Compute hashes for multiple files
-- `Compare-DirectoryContent` - Compare two directory structures
+- **[file-operations.ps1](windows/file-operations.ps1)**
+  - File and folder operations in PowerShell:
+    - `MoveItem-Overwrite` - Move with automatic overwrite
+    - `CopyItem-Safe` - Safe copy with conflict handling
+    - `Remove-EmptyDirectories` - Clean up empty folders recursively
+    - `Get-FileHash-Bulk` - Compute hashes for multiple files
+    - `Compare-DirectoryContent` - Compare two directory structures
 
-### GitHub Management (`github-management.ps1`)
+### GitHub Management
 
-Automated GitHub repository workflows:
-- `Manage-GitHubAppDev` - Full repository management workflow
-- `Initialize-GitRepository` - Initialize new repositories
-- `Create-GitTag` - Create and push tags
-- `Create-GitHubRelease` - Automated release creation
-- `Sync-GitHubFork` - Keep forks synchronized
+- **[github-management.ps1](windows/github-management.ps1)**
+  - Automated GitHub repository workflows:
+    - `Manage-GitHubAppDev` - Full repository management workflow
+    - `Initialize-GitRepository` - Initialize new repositories
+    - `Create-GitTag` - Create and push tags
+    - `Create-GitHubRelease` - Automated release creation
+    - `Sync-GitHubFork` - Keep forks synchronized
 
-### Document Conversion (`document-conversion.ps1`)
+### Document Conversion
 
-Document format conversion utilities:
-- `Convert-MarkdownToHtml` - Markdown to HTML conversion
-- `Convert-MarkdownToPdf` - Markdown to PDF conversion
-- `Convert-HtmlToPdf` - HTML to PDF conversion
-- `Batch-ConvertDocuments` - Bulk document conversion
+- **[document-conversion.ps1](windows/document-conversion.ps1)**
+  - Document format conversion utilities:
+    - `Convert-MarkdownToHtml` - Markdown to HTML conversion
+    - `Convert-MarkdownToPdf` - Markdown to PDF conversion
+    - `Convert-HtmlToPdf` - HTML to PDF conversion
+    - `Batch-ConvertDocuments` - Bulk document conversion
 
-### Python Environment (`python-environment.ps1`)
+### Python Environment
 
-Python environment management:
-- `New-PythonVenv` - Create virtual environments
-- `Activate-PythonVenv` - Activate virtual environment
-- `Install-PythonPackages` - Bulk package installation
-- `Export-PythonRequirements` - Generate requirements.txt
-- `Update-PythonPackages` - Update all packages
+- **[python-environment.ps1](windows/python-environment.ps1)**
+  - Python environment management:
+    - `New-PythonVenv` - Create virtual environments
+    - `Activate-PythonVenv` - Activate virtual environment
+    - `Install-PythonPackages` - Bulk package installation
+    - `Export-PythonRequirements` - Generate requirements.txt
+    - `Update-PythonPackages` - Update all packages
 
-### Profile Management (`profile-management.ps1`)
+### Profile Management 
 
-PowerShell profile configuration:
-- `Install-PowerShellProfile` - Set up custom profile
-- `Add-ProfileFunction` - Add functions to profile
-- `Backup-PowerShellProfile` - Backup profile configuration
-- `Restore-PowerShellProfile` - Restore from backup
+- **[profile-management.ps1](windows/profile-management.ps1)**
+  - PowerShell profile configuration:
+    - `Install-PowerShellProfile` - Set up custom profile
+    - `Add-ProfileFunction` - Add functions to profile
+    - `Backup-PowerShellProfile` - Backup profile configuration
+    - `Restore-PowerShellProfile` - Restore from backup
 
-### Utility Functions (`utility-functions.ps1`)
+### Utility Functions 
 
-General-purpose utilities:
-- `Test-Administrator` - Check admin privileges
-- `Get-SystemInfo` - Display system information
-- `Test-InternetConnection` - Network connectivity check
-- `Get-InstalledSoftware` - List installed applications
-- `Measure-CommandTime` - Benchmark command execution
+- **[utility-functions.ps1](windows/utility-functions.ps1)**
+  - General-purpose utilities:
+    - `Test-Administrator` - Check admin privileges
+    - `Get-SystemInfo` - Display system information
+    - `Test-InternetConnection` - Network connectivity check
+    - `Get-InstalledSoftware` - List installed applications
+    - `Measure-CommandTime` - Benchmark command execution
 
-### File System Management (`file-system_management.ps1`)
+### File System Management
 
-Advanced filesystem utilities:
-- `Get-LargestFiles` - Find largest files in directory tree
-- `Get-DuplicateFiles` - Detect duplicate files by hash
-- `Compress-OldFiles` - Archive files older than specified date
-- `Export-DirectoryStructure` - Generate directory tree report
+- **[file-system_management.ps1](windows/file-system_management.ps1)**
+  - Advanced filesystem utilities:
+    - `Get-LargestFiles` - Find largest files in directory tree
+    - `Get-DuplicateFiles` - Detect duplicate files by hash
+    - `Compress-OldFiles` - Archive files older than specified date
+    - `Export-DirectoryStructure` - Generate directory tree report
 
-### File Size Lister (`filesize-lister.ps1`)
+### File Size Lister
 
-Directory size analysis:
-- `Get-DirectorySize` - Calculate folder sizes recursively
-- `Export-SizeReport` - Generate size report CSV
-- `Find-LargeDirectories` - Identify space-consuming folders
+- **[filesize-lister.ps1](windows/filesize-lister.ps1)**
+  - Directory size analysis:
+    - `Get-DirectorySize` - Calculate folder sizes recursively
+    - `Export-SizeReport` - Generate size report CSV
+    - `Find-LargeDirectories` - Identify space-consuming folders
 
-### Media Download (`media-download.ps1`)
+### Media Download 
 
-Media download utilities:
-- `Download-YouTubeVideo` - Download YouTube videos
-- `Download-Playlist` - Download entire playlists
-- `Convert-MediaFormat` - Convert media formats
-- `Extract-AudioFromVideo` - Extract audio tracks
+- **[media-download.ps1](windows/media-download.ps1)**
+  - Media download utilities:
+    - `Download-YouTubeVideo` - Download YouTube videos
+    - `Download-Playlist` - Download entire playlists
+    - `Convert-MediaFormat` - Convert media formats
+    - `Extract-AudioFromVideo` - Extract audio tracks
 
-### Job Scheduler (`job-scheduler_template.ps1`)
+### Job Scheduler
 
-Task scheduling framework:
-- `New-ScheduledTask` - Create scheduled tasks
-- `Register-TaskScheduler` - Register with Windows Task Scheduler
-- `Remove-ScheduledTask` - Remove scheduled tasks
-- `Get-TaskStatus` - Check task execution status
+- **[job-scheduler_template.ps1](windows/job-scheduler_template.ps1)**
+  - Task scheduling framework:
+    - `New-ScheduledTask` - Create scheduled tasks
+    - `Register-TaskScheduler` - Register with Windows Task Scheduler
+    - `Remove-ScheduledTask` - Remove scheduled tasks
+    - `Get-TaskStatus` - Check task execution status
 
 ---
 
@@ -285,29 +305,34 @@ Task scheduling framework:
 ### Prerequisites
 
 **For PowerShell Scripts:**
+
 - Windows 10/11 or Windows Server 2016+
 - PowerShell 7.0 or later (recommended)
 - Administrator privileges (for some operations)
 
 **For Guides:**
+
 - Relevant technology installed (Docker, PostgreSQL, Redis, etc.)
 - Basic understanding of the technology stack
 - Command-line familiarity
 
 ### Installation
 
-1. **Clone the repository:**
+- **Step 1. Clone the repository:**
+
 ```powershell
 git clone https://github.com/paulnamalomba/system-management_scripts.git
 cd system-management_scripts
 ```
 
-2. **Set execution policy (if needed):**
+- **Step 2. Set execution policy (if needed):**
+
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-3. **Import scripts into your PowerShell session:**
+- **Step 3. Import scripts into your PowerShell session:**
+
 ```powershell
 # Import all functions from a script
 . .\windows\file-operations.ps1
@@ -316,7 +341,8 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 # Or add to your PowerShell profile for persistent availability
 ```
 
-4. **Add to PowerShell Profile (Optional):**
+- **Step 4. Add to PowerShell Profile (Optional):**
+
 ```powershell
 # Edit your profile
 notepad $PROFILE
@@ -425,21 +451,23 @@ bat .\POSTGRESQL_16_POWERSHELL_POWERUSER_GUIDE.md
 
 Contributions are welcome! Please follow these guidelines:
 
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Commit your changes**: `git commit -m 'Add amazing feature'`
-4. **Push to the branch**: `git push origin feature/amazing-feature`
-5. **Open a Pull Request**
+- **Step 1. Fork the repository**
+- **Step 2. Create a feature branch**: `git checkout -b feature/amazing-feature`
+- **Step 3. Commit your changes**: `git commit -m 'Add amazing feature'`
+- **Step 4. Push to the branch**: `git push origin feature/amazing-feature`
+- **Step 5. Open a Pull Request**
 
 ### Contribution Guidelines
 
 **For PowerShell Scripts:**
+
 - Follow PowerShell best practices and style guidelines
 - Include comment-based help for all functions
 - Add parameter validation and error handling
 - Test on PowerShell 7+ before submitting
 
 **For Technical Guides:**
+
 - Follow the existing template structure
 - Include practical, copy-paste ready examples
 - Cover security considerations and best practices
@@ -451,16 +479,6 @@ Contributions are welcome! Please follow these guidelines:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Contact
-
-**Paul Namalomba**
-- GitHub: [@paulnamalomba](https://github.com/paulnamalomba)
-- Email: kabwenzenamalomba@gmail.com
-- Website: [https://paulnamalomba.github.io](https://paulnamalomba.github.io)
-- LinkedIn: [Paul Namalomba](https://www.linkedin.com/in/paulnamalomba/)
 
 ---
 
